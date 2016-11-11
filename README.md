@@ -13,8 +13,9 @@ a++ = incrementacion post
 --a = Decrementacion pref
 == = coparacion de igualdad
 ===  = comparacion de igualdad y tipo
-
-
+&& = equivale al 'y' 'AND'
+|| = O, OR 
+ 
 ```
 
 ```
