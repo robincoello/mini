@@ -45,7 +45,7 @@ Entre comillas
 ```
 
 ```
-Declaracion de una funcion
+------------ Declaracion de una funcion------------
 
 []()
 
