@@ -2,6 +2,26 @@
 Sin palabras
 
 ```
++ = Suma
+- = Resta
+* = Multiplicacion
+/ = divicion
+% = modulo
+a++ = incrementacion post
+--a = Decrementacion pref
+== = coparacion de igualdad
+===  = comparacion de igualdad y tipo
+
+```
+
+
+
+
+
+
+
+
+```
 ? a > b 
 	"hola"
 -
