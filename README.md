@@ -1,5 +1,7 @@
 # mini
 Sin palabras
+## Requiere Latino
+
 
 ```
 + = Suma
@@ -12,9 +14,15 @@ a++ = incrementacion post
 == = coparacion de igualdad
 ===  = comparacion de igualdad y tipo
 
+
 ```
 
+```
+------------- Valores Booleanos
+0 = falso
+cuaquier otro simbolo es verdadero
 
+```
 
 
 
