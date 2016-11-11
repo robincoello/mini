@@ -26,6 +26,13 @@ cuaquier otro simbolo es verdadero
 ```
 
 
+```
+---------- escribir() ------------------
+Todo lo que este entre dos commilas dobles es un escribir() de latino 
+
+```
+
+
 
 
 
