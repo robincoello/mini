@@ -89,8 +89,8 @@ mientras
 Declaracion de una funcion
 
 ```
-[]()
-
+[funcion](parametros)
+	acciones
 /
 
 ```
