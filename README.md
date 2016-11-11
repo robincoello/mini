@@ -105,6 +105,14 @@ ejemplo
 	a+b
 /
 ```
+LLamado de la funcion 
+```
+r = suma(a,b)
+
+También
+r = suma a,b
+
+```
 
 
 
