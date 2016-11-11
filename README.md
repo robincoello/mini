@@ -1,6 +1,16 @@
 # mini
 Lenguaje de programación sin palabras
 
+Comentarios
+```
+/* una  linea*/
+
+/*
+Multi 
+linea
+*/
+```
+
 
 ```
 + = Suma
