@@ -36,11 +36,19 @@ Todo lo que este entre dos commilas dobles es un escribir() de latino
 ```
 
 
+```
+-------- si() -------------
+Un si simple
+? a > b 
+	"hola"
+/
+```
 
 
-
+Un si con un sino 
 
 ```
+
 ? a > b 
 	"hola"
 -
