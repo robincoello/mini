@@ -40,6 +40,7 @@ Si simple
 	accion
 / 
 ```
+Ejemplo
 ```
 ? a > b 
 	"hola"
@@ -57,18 +58,16 @@ Un si con un sino
 	"chao"
 /
 ```
+Repetir (creo que no es la mejor forma esta)
 
 ```
---------Repetir--------------------
-
 10,20
 	"hola"
 /
 ```
 
+Escojer
 ```
----------Escojer ------------------
-
 ::pais
   Ecuador:
 	"Quito"
@@ -78,30 +77,26 @@ Un si con un sino
 	"Sin capital"	
 /
 ```
+mientras
+
 ```
---------- mientras ---------------------
 (a < 10)
 	"escribir" . a
 	a++
 /
 ```
 
-```
------------- escribir--------------------
-
-"" 
-Entre comillas 
-```
+Declaracion de una funcion
 
 ```
------------- Declaracion de una funcion------------
-
 []()
 
 /
 
-ejemplo 
+```
 
+ejemplo 
+```
 [suma](a,b)
 	a+b
 /
