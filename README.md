@@ -1,6 +1,5 @@
 # mini
-Sin palabras
-## Requiere Latino
+Lenguaje de programación sin palabras
 
 
 ```
@@ -17,28 +16,31 @@ a++ = incrementacion post
 || = O, OR 
  
 ```
-
+Valores Booleanos
 ```
-------------- Valores Booleanos
 0 = falso
 cuaquier otro simbolo es verdadero
 
 ```
 
-
+escribir
 ```
----------- escribir() ------------------
 "" 
+```
+
 ejemplo 
+```
 "Hola, este es mini"
-Todo lo que este entre dos commilas dobles es un escribir() de latino 
 
 ```
 
-
+Si simple
 ```
--------- si() -------------
-Un si simple
+? condicion
+	accion
+/ 
+```
+```
 ? a > b 
 	"hola"
 /
