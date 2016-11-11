@@ -29,6 +29,7 @@ Sin palabras
 	"Sin capital"	
 /
 ```
+```
 --------- mientras ---------------------
 (a < 10)
 	"escribir" . a
@@ -44,8 +45,7 @@ Entre comillas
 ```
 
 ```
-
-----------Declaracion de unafuncion-----------------------------
+Declaracion de una funcion
 
 []()
 
