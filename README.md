@@ -14,6 +14,7 @@ a++ = incrementacion post
 ===  = comparacion de igualdad y tipo
 && = equivale al 'y' 'AND'
 || = O, OR 
+
  
 ```
 Valores Booleanos
@@ -21,6 +22,9 @@ Valores Booleanos
 0 = falso
 cuaquier otro simbolo es verdadero
 
+```
+
+```
 ```
 
 escribir
