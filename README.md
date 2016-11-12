@@ -10,7 +10,13 @@ Multi
 linea
 */
 ```
-
+Declaracion de Variables
+```
+n = 10 // entros 
+r = 10.2 // reales
+c = "a" // caracter
+t = "Texto" // textual 
+```
 
 ```
 + = Suma
