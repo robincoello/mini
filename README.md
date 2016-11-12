@@ -1,6 +1,8 @@
 # mini
 Lenguaje de programación sin palabras
 
+###Requiere Latino
+
 Comentarios
 ```
 // una  linea
