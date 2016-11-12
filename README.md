@@ -105,6 +105,15 @@ mientras
 	a++
 /
 ```
+otra manera 
+```
+(i=0; i<10; i++)
+	"escribir" . 1
+	
+/
+```
+
+
 
 Declaracion de una funcion
 
