@@ -3,6 +3,15 @@ Lenguaje de programación sin palabras
 
 ###Requiere Latino
 
+Palabras reservadas
+```
+Mini no tiene palabras reseradas
+
+```
+
+
+
+
 Comentarios
 ```
 // una  linea
@@ -55,7 +64,6 @@ a++ = incrementación post
 Valores Booleanos
 ```
 0 = falso
-falso = falso
 cuaquier otro simbolo es verdadero
 
 ```
