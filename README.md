@@ -110,9 +110,14 @@ mientras
 otra manera 
 ```
 (i=0; i<10; i++)
-	"Su valor es" . 1
+	"Su valor es" . i
 	
 /
+o se podria hacer 
+(i=0; i<10; i++)
+	'i'	
+/
+Lo que esta entre comillas simples es un escribir() que interpreta las variables
 ```
 
 
