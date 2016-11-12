@@ -174,8 +174,9 @@ r = suma a,b
 
 Valor enviado desde la consola
 ```
-[a]
+|a|
 	'a'
+
 	
 ```
 Esto asigna el valor leido desde la consola a la variable ```a``` y después lo afichamos en la pantalla	
