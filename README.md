@@ -53,6 +53,8 @@ ejemplo
 "Hola, este es mini"
 
 ```
+> Si usamos las commillas simples las variables al interios son interpretadas 
+
 
 Si simple
 ```
@@ -144,9 +146,10 @@ Valor enviado desde la consola
 [a]
 	'a'
 	
+```
 Esto asigna el valor leido desde la consola a la variable ```a``` y despues lo afichamos en la pantalla	
 
-```
+
 
 
 
