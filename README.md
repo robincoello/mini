@@ -113,12 +113,16 @@ otra manera
 	"Su valor es" . i
 	
 /
+
+```
 o se podria hacer 
+```
 (i=0; i<10; i++)
 	'i'	
 /
-Lo que esta entre comillas simples es un escribir() que interpreta las variables
 ```
+>Lo que esta entre comillas simples es un escribir() que interpreta las variables
+
 
 
 
