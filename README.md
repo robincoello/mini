@@ -3,16 +3,16 @@ Lenguaje de programación sin palabras
 
 Comentarios
 ```
-/* una  linea*/
+// una  linea
 
-/*
+//
 Multi 
 linea
-*/
+//
 ```
 Declaracion de Variables
 ```
-n = 10 // entros 
+n = 10  // entros
 r = 10.2 // reales
 c = "a" // caracter
 t = "Texto" // textual 
