@@ -67,14 +67,17 @@ Valores Booleanos
 cuaquier otro simbolo es verdadero
 
 ```
-
+Escribir o imprimir
 ```
+''
 ```
+> Interpreta las variables que se encuentren al interior de las comillas simples
 
 escribir
 ```
 "" 
 ```
+> No interpreta las variables
 
 ejemplo 
 ```
