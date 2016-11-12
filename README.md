@@ -12,7 +12,7 @@ Multi
 linea
 //
 ```
-Declaracion de Variables
+Declaración de Variables
 ```
 n = 10  // entros
 r = 10.2 // reales
@@ -23,13 +23,13 @@ t = "Texto" // textual
 ```
 + = Suma
 - = Resta
-* = Multiplicacion
-/ = divicion
+* = Multiplicación
+/ = división
 % = modulo
-a++ = incrementacion post
---a = Decrementacion pref
-== = coparacion de igualdad
-===  = comparacion de igualdad y tipo
+a++ = incrementación post
+--a = Decrementación pref
+== = coparación de igualdad
+===  = comparación de igualdad y tipo
 && = equivale al 'y' 'AND'
 || = O, OR 
 
@@ -60,8 +60,8 @@ ejemplo
 
 Si simple
 ```
-? condicion
-	accion
+? condición
+	acción
 / 
 ```
 Ejemplo
@@ -97,6 +97,8 @@ Escojer
 	"Quito"
   Mexico:
 	"DF"
+  Peru:
+  	"Lima"
   ?:
 	"Sin capital"	
 /
@@ -128,10 +130,10 @@ o se podria hacer
 
 
 
-Declaracion de una funcion
+Declaración de una funcion
 
 ```
-[funcion](parametros)
+[función](parametros)
 	acciones
 /
 
@@ -143,7 +145,7 @@ ejemplo
 	a+b
 /
 ```
-LLamado de la funcion 
+LLamado de la función 
 ```
 r = suma(a,b)
 
@@ -158,7 +160,7 @@ Valor enviado desde la consola
 	'a'
 	
 ```
-Esto asigna el valor leido desde la consola a la variable ```a``` y despues lo afichamos en la pantalla	
+Esto asigna el valor leido desde la consola a la variable ```a``` y después lo afichamos en la pantalla	
 
 
 
