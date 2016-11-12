@@ -30,14 +30,32 @@ a++ = incrementación post
 --a = Decrementación pref
 == = coparación de igualdad
 ===  = comparación de igualdad y tipo
+!= = compara la desigualdad
+>  = Mayor que
+<  = Menor que 
+>= = Mayor o igual 
+=< = Menor o igual
+
 && = equivale al 'y' 'AND'
 || = O, OR 
-
  
 ```
+
+ En Valores textuales
+```
++ = concatenacion
+. = cocatenacion
+.= = concatenacion
+ 
+```
+
+
+
+
 Valores Booleanos
 ```
 0 = falso
+falso = falso
 cuaquier otro simbolo es verdadero
 
 ```
@@ -163,8 +181,26 @@ Valor enviado desde la consola
 Esto asigna el valor leido desde la consola a la variable ```a``` y después lo afichamos en la pantalla	
 
 
+Listas
 
+```
+numeros = [1, 2, 3, 4, 5]
+vacia = []
 
+```
+
+listas multiples o matrices
+```
+m = [
+	[1,2,3],
+	['a', 'b', 'c'],
+	['alpha', 'beta', 'gamma']
+     ]
+```
+Listas Convinadas
+```
+lst = [123, 'xyz', 'zara', falso]
+```
 
 
 
