@@ -110,7 +110,7 @@ mientras
 otra manera 
 ```
 (i=0; i<10; i++)
-	"escribir" . 1
+	"Su valor es" . 1
 	
 /
 ```
