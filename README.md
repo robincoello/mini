@@ -23,10 +23,10 @@ linea
 ```
 Declaración de Variables
 ```
-n = 10  // entros
-r = 10.2 // reales
-c = "a" // caracter
-t = "Texto" // textual 
+$n = 10  // entros
+$r = 10.2 // reales
+$c = "a" // caracter
+$t = "Texto" // textual 
 ```
 
 ```
@@ -77,20 +77,20 @@ Escribir o imprimir
 ```
 ''
 ```
-> Interpreta las variables que se encuentren al interior de las comillas simples
+> NO interpreta las variables que se encuentren al interior de las comillas simples
 
 escribir
 ```
 "" 
 ```
-> No interpreta las variables
+> SI interpreta las variables
 
 ejemplo 
 ```
-"Hola, este es mini"
+"Hola,$nombre este es mini"
 
 ```
-> Si usamos las commillas simples las variables al interios son interpretadas 
+> Si usamos las commillas dobles las variables al interior son interpretadas 
 
 
 Si simple
@@ -102,7 +102,7 @@ Si simple
 Otra forma posible 
 
 hagaEsto si esto /
-"saluda" ? a > b /
+"saluda" ? $a > $b /
 
 
 ```
@@ -110,7 +110,7 @@ hagaEsto si esto /
 
 Ejemplo
 ```
-? a > b 
+? $a > $b 
 	"hola"
 /
 ```
@@ -120,7 +120,7 @@ Un si con un sino
 
 ```
 
-? a > b 
+? $a > $b 
 	"hola"
 -
 	"chao"
@@ -136,7 +136,7 @@ Repetir (creo que no es la mejor forma esta)
 
 Escojer
 ```
-::pais
+:: $pais
   Ecuador:
 	"Quito"
   Mexico:
@@ -150,26 +150,26 @@ Escojer
 mientras
 
 ```
-(a < 10)
-	"escribir" . a
-	a++
+($a < 10)
+	"escribir $a "
+	$a++
 /
 ```
 otra manera 
 ```
-(i=0; i<10; i++)
-	"Su valor es" . i
+($i=0; $i<10; $i++)
+	"Su valor es $i"
 	
 /
 
 ```
 o se podria hacer 
 ```
-(i=0; i<10; i++)
-	'i'	
+($i=0; $i<10; $i++)
+	"$i"	
 /
 ```
->Lo que esta entre comillas simples es un escribir() que interpreta las variables
+>Lo que esta entre comillas dobles es un escribir() que interpreta las variables
 
 
 
@@ -185,23 +185,23 @@ Declaración de una funcion
 
 ejemplo 
 ```
-[suma](a,b)
-	a+b
+[suma]($a,$b)
+	$a+$b
 /
 ```
 LLamado de la función 
 ```
-r = suma(a,b)
+$r = suma($a,$b)
 
 También
-r = suma a,b
+$r = suma $a,$b
 
 ```
 
 Valor enviado desde la consola
 ```
-|a|
-	'a'
+|$a|
+	"$a"
 
 	
 ```
@@ -211,14 +211,14 @@ Esto asigna el valor leido desde la consola a la variable ```a``` y después lo 
 Listas
 
 ```
-numeros = [1, 2, 3, 4, 5]
-vacia = []
+$numeros = [1, 2, 3, 4, 5]
+$vacia = []
 
 ```
 
 listas multiples o matrices
 ```
-m = [
+$m = [
 	[1,2,3],
 	['a', 'b', 'c'],
 	['alpha', 'beta', 'gamma']
@@ -226,7 +226,7 @@ m = [
 ```
 Listas Convinadas
 ```
-lst = [123, 'xyz', 'zara', falso]
+$lista = [123, 'xyz', 'zara', "$a"]
 ```
 
 
