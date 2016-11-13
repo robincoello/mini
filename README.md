@@ -98,7 +98,16 @@ Si simple
 ? condición
 	acción
 / 
+
+Otra forma posible 
+
+hagaEsto si esto /
+"saluda" ? a > b /
+
+
 ```
+
+
 Ejemplo
 ```
 ? a > b 
