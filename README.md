@@ -35,6 +35,7 @@ $matriz = [
 
 $lista = [123, 'xyz', 'zara', "$a"]
 
+$lista ={"","",""} 
 
 ```
 
