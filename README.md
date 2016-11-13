@@ -27,6 +27,15 @@ $n = 10  // entros
 $r = 10.2 // reales
 $c = "a" // caracter
 $t = "Texto" // textual 
+$matriz = [
+    [1,2,3],
+    ['a', 'b', 'c'],
+    ['alpha', 'beta', 'gamma']
+     ]
+
+$lista = [123, 'xyz', 'zara', "$a"]
+
+
 ```
 
 ```
@@ -206,34 +215,6 @@ Valor enviado desde la consola
 	
 ```
 Esto asigna el valor leido desde la consola a la variable ```a``` y después lo afichamos en la pantalla	
-
-
-Listas
-
-```
-$numeros = [1, 2, 3, 4, 5]
-$vacia = []
-
-```
-
-listas multiples o matrices
-```
-$m = [
-	[1,2,3],
-	['a', 'b', 'c'],
-	['alpha', 'beta', 'gamma']
-     ]
-```
-Listas Convinadas
-```
-$lista = [123, 'xyz', 'zara', "$a"]
-```
-
-
-
-
-
-
 
 
 
