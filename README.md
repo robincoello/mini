@@ -58,6 +58,12 @@ a++ = incrementación post
  
 ```
 
+busca patrones
+```
+a =~ Busca un patron
+
+```
+
 
 
 
