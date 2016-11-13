@@ -44,8 +44,8 @@ $lista = [123, 'xyz', 'zara', "$a"]
 * = Multiplicación
 / = división
 % = modulo
-a++ = incrementación post
---a = Decrementación pref
+$a++ = incrementación post
+--$a = Decrementación pref
 == = coparación de igualdad
 ===  = comparación de igualdad y tipo
 != = compara la desigualdad
@@ -56,6 +56,10 @@ a++ = incrementación post
 
 && = equivale al 'y' 'AND'
 || = O, OR 
+
+$a =~ (patro) Busca un patron
+
+
  
 ```
 
@@ -66,14 +70,6 @@ a++ = incrementación post
 .= = concatenacion
  
 ```
-
-busca patrones
-```
-a =~ Busca un patron
-
-```
-
-
 
 
 Valores Booleanos
